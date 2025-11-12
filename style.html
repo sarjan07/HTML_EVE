@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Tag</title>
+        <style>
+        /* 
+-> there are three ways to apply style
+1. Inline  : if we want to apply a specific style to the specific tag 
+            then we use this ways to apply css
+
+2. Internal: in html inside of head tag using <style> we apply css
+
+3. External: make new file for css using .css(extension)
+
+        there are multiple ways to give/apply style        
+        1. * -> Universal Selector: it apply css to whole page
+        2. Element Selector: tag which is exist it's called element selector
+          ex. p,b,q,marquee etc
+        3. Class selector: 
+        -> if we want to apply common style to different tags..
+        -> we can access class selector through .class_name
+
+        4. Id Selector: 
+        -> if we want to apply different style to different tags with unique name
+        -> we can access id selector through #id_name
+       */
+       
+        /* *{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: chocolate;
+            color: aqua;
+            
+        } */
+         /* Internal CSS */
+        .box1{
+            background-color: goldenrod;
+            width: 400px;
+         }
+         #box{
+            background-color: yellowgreen;
+            width: 400px;
+         }
+         .box3{
+            background-color: blueviolet;
+            color: aqua;
+            width: 100px;
+         }
+        </style>
+    </head>
+    <body>
+        <h5 style="background-color: blue;font-size: 20px; color: aliceblue;">Introduction</h5>
+        <p class="box1" style="background-color: red;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, quaerat accusantium laborum quibusdam reiciendis ad consectetur vitae minima repellat aperiam placeat adipisci harum quisquam quos sed, dolorum inventore velit at fugiat corrupti. Voluptates eligendi minima aperiam facilis consequatur in, minus quo nostrum consequuntur placeat dolor pariatur corporis cum voluptatem incidunt.
+        </p>
+        <h5 class="box3">History</h5>
+      <p id="box">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est maxime, enim nisi quo delectus soluta officiis libero iusto fugit quasi aliquid voluptate eligendi veritatis dolorem laudantium quod, optio sit cupiditate, aperiam at beatae. Temporibus animi corrupti ipsam, velit molestiae inventore ducimus quas aut provident ad fugit ipsum excepturi dignissimos earum!
+      </p>
+    </body>
+</html>

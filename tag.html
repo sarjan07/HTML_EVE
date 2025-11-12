@@ -1,8 +1,25 @@
 <html>
     <head>
         <title>Tag</title>
+        <style>
+        /* 
+        there are multiple ways to give/apply style        
+        1. * -> Universal Selector: it apply css to whole page
+        2. Element Selector: tag which is exist it's called element selector
+          ex. p,b,q,marquee etc
+       */
+       /* *{
+            background-color: aqua;
+       } */
+        *{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: chocolate;
+            color: aqua;
+            
+        }
+        </style>
     </head>
-    <body bgcolor="LightBlue">
+    <body>
         <!-- 
         There are two types of tags.
         1. Block tag:
@@ -26,7 +43,9 @@
         <!-- i tag and em tags have similar property -->
 
         <br><br>
-        The Chemical formula of Acid C<sub>2</sub>H<sub>6</sub>my name is sarjan patel
+        The Chemical formula of Acid C<sub>2</sub>H<sub>6</sub> 
+        &nbsp;&nbsp;my name is sarjan patel
+        <!-- &nbsp; : it will give you extra space -->
         <!-- sub-> subscript: to write/print text below normal/par line --><br>
          The mathematical formula of (a+b)<sup>2</sup>=a<sup>2</sup>+b<sup>2</sup>+2ab
 
@@ -35,7 +54,7 @@
          <br>
          <br>
          <img src="https://cdn.pixabay.com/photo/2025/08/09/17/47/modelling-9764984_1280.jpg" height="200px" >
-         <img src="./hyena-9407501_1280.webp" height="150px">
+         <img src="./hyena-9407501_1280.webp" height="150px" alt="hyena's image">
          <br>
          <img src="https://cdn.pixabay.com/photo/2025/06/19/16/21/adventure-9669323_1280.jpg" height="200px">
          <br><br>
@@ -44,7 +63,8 @@
          <img src="https://cdn.pixabay.com/photo/2025/02/14/22/12/hyena-9407501_1280.jpg" height="200px">
          <!-- img tag have two attributes
          1. src -> source/link
-         2. height & width
+         2. alt : if image is not available then this text will print
+         3. height & width
 
          img tag is inline tag..
          it is self colsing tag....
