@@ -10,6 +10,7 @@
 2. Internal: in html inside of head tag using <style> we apply css
 
 3. External: make new file for css using .css(extension)
+-> we need to link that file through link tag...
 
         there are multiple ways to give/apply style        
         1. * -> Universal Selector: it apply css to whole page
@@ -30,30 +31,33 @@
             color: aqua;
             
         } */
-         /* Internal CSS */
-        .box1{
-            background-color: goldenrod;
-            width: 400px;
-         }
-         #box{
-            background-color: yellowgreen;
-            width: 400px;
-         }
-         .box3{
-            background-color: blueviolet;
-            color: aqua;
-            width: 100px;
-         }
+         /* Internal Style/CSS */
+        /* *{
+          background-color: blue;
+          color: white;
+        } */
+        #para1{
+          background-color: blue;
+          color: white;
+          width: 350px;
+          height: 200px;
+        }
+        .heading{
+          background-color: aqua;
+          color: gray;
+          width: 150px;
+        }
+        #para2{
+          background-color: aquamarine;
+          color: black;
+          width: 400px;
+        }
         </style>
     </head>
     <body>
-        <h5 style="background-color: blue;font-size: 20px; color: aliceblue;">Introduction</h5>
-        <p class="box1" style="background-color: red;">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, quaerat accusantium laborum quibusdam reiciendis ad consectetur vitae minima repellat aperiam placeat adipisci harum quisquam quos sed, dolorum inventore velit at fugiat corrupti. Voluptates eligendi minima aperiam facilis consequatur in, minus quo nostrum consequuntur placeat dolor pariatur corporis cum voluptatem incidunt.
-        </p>
-        <h5 class="box3">History</h5>
-      <p id="box">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est maxime, enim nisi quo delectus soluta officiis libero iusto fugit quasi aliquid voluptate eligendi veritatis dolorem laudantium quod, optio sit cupiditate, aperiam at beatae. Temporibus animi corrupti ipsam, velit molestiae inventore ducimus quas aut provident ad fugit ipsum excepturi dignissimos earum!
-      </p>
+        <h2 class="heading">Introduction</h2>
+        <p id="para1">Lorem ip\sum dolor sit amet consectetur, adipisicing elit. Veniam, commodi. Blanditiis itaque accusamus accusantium autem aliquid odio natus deleniti perferendis, animi sunt? Obcaecati tempore quia laborum, officiis vero harum odit suscipit quaerat, corrupti ab fugit tempora voluptatem deleniti, quibusdam libero minima perferendis nam. Ratione laudantium sed tempora, tenetur earum qui corrupti adipisci nesciunt? Sed, dolor ratione consequuntur ipsum laudantium nemo.</p>
+        <h3 class="heading">History</h3>
+        <p id="para2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi corrupti cumque pariatur eveniet eius, tempora, doloremque perspiciatis, nihil omnis esse ut iure nisi minus libero accusamus magni natus autem! Necessitatibus ipsa modi accusantium ipsam dolor eligendi quidem sit dolorum. Architecto nesciunt iste voluptatum sit esse minima tempore similique animi labore. Obcaecati corporis doloremque, cumque quidem enim at odio itaque error!</p>
     </body>
 </html>
