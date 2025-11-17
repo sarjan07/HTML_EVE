@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label>First Name:</label>
+            <input type="text" name="firstname">
+            <br><br>
+            <label>Last Name:</label>
+            <input type="text" name="lastname">
+        </fieldset>
+
+       <br><br>
+
+
+       <!-- Additional Form area -->
+       <fieldset>
+           <legend>Email Address</legend>
+           <label>Email: </label>
+           <input type="email" required>
+           <br> <br>
+           <label>Password:</label>
+           <input type="password" required>
+        </fieldset>
+        
+              <br>
+              <!-- number -->
+        <label>Age:</label>
+        <input type="number">
+        <br><br>
+        <!-- Website url -->
+        <label>Website:</label>
+        <input type="url">
+        <br><br>
+<!-- used for phone number -->
+        <lable> Ph Number: </lable>
+        <input type="tel">
+
+        <br><br>
+<!-- attach file -->
+        <label>Attach your file: </label>
+        <input type="file">
+        <br><br>
+        <!-- date -->
+        <lable>Birthdate: </lable>
+        <input type="date">
+        <br><br>
+
+        <!-- Checkbox -->
+        <label>Hobby:</label>
+        <input type="checkbox" value="Cricket"> Cricket <br>
+        <input type="checkbox" value="Football"> Football <br>
+        <input type="checkbox" value="Cricket"> Cricket <br>
+        <input type="checkbox" value="Football"> Football <br>
+        <input type="checkbox" value="Cricket"> Cricket <br>
+        <input type="checkbox" value="Football"> Football <br>
+        <br><br>
+
+
+        <!-- Radio Button -->
+        <label>Choose your favourite language:</label> <br><br>
+        <input type="radio" name="fav" id="html">
+            <label for="html" name="fav">Html</label>
+        <input type="radio" name="fav" id="css">
+            <label for="css">CSS</label>
+        <input type="radio" name="fav" id="js">
+            <label for="js">JavaScript</label>
+        <input type="radio" name="fav" id="c">
+            <label for="c">C</label>
+
+        <br><br>
+        <!-- Select dropdown -->
+        <label>Country: </label>
+        <select>
+            <option>Select Country</option>
+            <option>India</option>
+            <option>USA</option>
+            <option>Germany</option>
+            <option>Italy</option>
+            <option>Spain</option>
+            <option>France</option>
+        </select>
+        <br><br>
+        <!-- Option group -->
+        <label>Choose your location: </label>
+        <select>
+            <optgroup label="Country">
+                <option>India</option>
+                <option>USA</option>
+                <option>Germany</option>
+                <option>Italy</option>
+                <option>Spain</option>
+                <option>France</option>
+            </optgroup>
+            <optgroup label="State">
+                <option>Gujarat</option>
+                <option>Maharastra</option>
+                <option>Rajasthan</option>
+                <option>Kerala</option>
+                <option>Tamil Nadu</option>
+            </optgroup>
+        </select>
+        <br><br>
+
+        <!-- address for text area -->
+        <label>Address:</label> <br>
+        <textarea rows="4" cols="10" placeholder="enter your name"></textarea>
+        <br><br>
+
+
+        <br><br>
+
+        
+        <!-- <input type="submit"> <input type="reset"> -->
+        <button type="Submit" >Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
